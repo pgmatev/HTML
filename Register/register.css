@@ -1,0 +1,58 @@
+body{
+  font-family: 'Helvectica Neue', Helvetica, Arial, sans-serif;
+  background-color: lightpink;
+  margin: 300px;
+}
+.card{
+  text-align: center;
+  font-size:1vw;
+  background-color: white;
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto 0;
+  border: 1px solid #888;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 30px 60px -20px rgba(0, 0, 0, 0.6  );
+}
+
+.card-2{
+  width: 100%;
+  border-radius: 20px;
+  background-color: #f1f1f1;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+input, select{
+  outline: none;
+}
+select, input[type=text], input[type=email], input[type=password]{
+  width: 66.6%;
+  margin: 10px auto 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  resize: vertical;
+}
+
+select:focus, input[type=text]:focus, input[type=email]:focus, input[type=password]:focus{
+  border: 2px solid #444;
+}
+
+
+input[type=submit] {
+  background-color: blue;
+  color: white;
+  margin-top: 30px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  resize: vertical;
+}
+input[type=submit]:hover{
+  background-color: darkblue;
+}
+.button{
+  margin-top: 30px;
+}
